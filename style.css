@@ -275,20 +275,20 @@ height: 300px;
 
 .creator{
     width: 100px;
-    height: auto;
-    margin-top: 90%;
-    margin-left: 50%;
+    height: 70px;
+    margin-top: 150rem;
+    top: 10px;
+    left: 45%;
     display: flex;
-    position: sticky;
-
-
+    z-index: 1003;
+    position: absolute;
 }
 
 .creator a{
     font-size: var(--p-font);
     color: var(--other-color);
     white-space: nowrap;
-    position: absolute;
+
 }
 
 .creator a:hover{
